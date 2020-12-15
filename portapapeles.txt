@@ -1,0 +1,51 @@
+797px
+
+style.css
+
+            #menu{
+                width: 70%;
+                float: right;
+                line-height: 85px;
+                font-size: 18px;
+            }
+            #menu ul{
+                line-height: 85px;
+                width: 10%;
+                float: right;
+            }
+            #menu ul li{
+                display: inline-block;
+                height: 46px;
+                margin-left: 15px;
+                margin-right: 15px;
+                list-style: none ;
+            }
+            #menu a{
+                text-decoration: none;
+                color: #444444;
+                transition: 300ms all;
+            }
+            #menu a:hover{
+                color: #61dafb;
+            }
+
+------
+@media (max-width: 1005px){
+    #logo{
+        float: none;
+        width: 240px;
+        margin: 0px auto;
+        margin-top: 20px;   
+    }
+    #menu,
+    #menu ul li,
+    #menu ul{
+        width: auto;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;   
+        line-height: 50px;
+        padding-right: 15px;
+    }
+}
